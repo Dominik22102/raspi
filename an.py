@@ -10,6 +10,3 @@ try:
 		time.sleep(1)
 		gpio.output(22,gpio.LOW)
 		time.sleep(1)
-
-except KeyboardInterrupt: 	
-	gpio.cleanup()
